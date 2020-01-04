@@ -5,7 +5,7 @@ import os
 import time
 import random
 import PID
-#import work2
+import work
 
 #SETAREA VARIABILELOR NECESARE PID
 targetX = 120
@@ -71,7 +71,7 @@ while True:
                 print("------------------")
 
 	   #ACTIONAREA MOTOARELOR
-                #work2.motor(targetY, targetX)
+                work.motor(targetY, targetX)
             else:
                 break
     finally:
